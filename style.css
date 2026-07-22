@@ -3,3 +3,20 @@
     margin: 0;
     padding: 0;
 }
+
+main {
+    background-color:#d6d5c9;
+}
+
+header, footer {
+    background-color:brown;
+}
+
+#banner {
+    background-color:#f29479;
+}
+
+#titulo-principal, #sobre-mi{
+    font-size: 4rem;
+    font-family: "Kameron", serif;
+}

@@ -11,6 +11,7 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   </head>
   <body>
     <header>
@@ -20,8 +21,8 @@
             <img
               src="https://png.pngtree.com/png-vector/20250917/ourmid/pngtree-clean-outline-drawing-of-a-strawberry-with-small-seeds-transparent-background-png-image_17440988.webp"
               alt="Frutilla"
-              width="40"
-              height="40"
+              width="50"
+              height="50"
             />
           </a>
           <button
@@ -39,15 +40,15 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a class="nav-link active" aria-current="page" href="#sobre-mi"
                   >Sobre mí</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Educación</a>
+                <a class="nav-link" href="#cursos">Educación</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#formulario">Contacto</a>
               </li>
             </ul>
           </div>
@@ -55,46 +56,50 @@
       </nav>
     </header>
     <main>
-      <div class="container-fluid text-center bg-danger p-5 mb-5">
-        <h1>Lourdes Guzmán</h1>
-        <p>Programadora Web</p>
-      </div>
-    
-      <div class="container">
-        <div class="row">
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                </div>
-            </div>
-        </div>
+      <div id="banner" class="container-fluid text-center mb-5 p-5">
+        <h1 id="titulo-principal" class="text-dark">Lourdes Guzmán</h1>
+        <p class="fs-5">Programadora Web</p>
       </div>
 
-      <h2 class="text-center mt-4">Cursos</h2>
       <div class="container">
         <div class="row">
-            <div class="col-4">
-                <div class="card">
-                    <img src="https://cdn.pixabay.com/photo/2021/02/19/13/13/graph-6030184_640.png" class="card-img-top" alt="grafica-contable" height="410px"/>
+          <div class="col">
+            <h2 id="sobre-mi" class="mt-5">Conoce a <br> Lourdes</h2>
+        </div>
+          <div class="col">
+            <div class="card ms-auto" style="width: 20rem;">
+                <img src="https://i.pinimg.com/vwebp/736x/43/f6/7e/43f67e2b6430b08b31d31b977b087b1d.webp" class="card-img-top" alt="frutilla-cortada" height="400px"/>
+                <div class="card-body">
+                    <p class="card-text">Estoy en proceso de formarme profesionalmente en áreas de economía, manejos de pc, documentos contables, etc. Tengo capacidad y deseo de aprender constantemente; cuando se da la oportunidad, no la desaprovecho.</p>
+                </div>
+            </div>
+            </div>
+      </div>
+
+      <h2 class="text-center mt-4" id="cursos">Cursos</h2>
+      <div class="container text-center">
+        <div class="row">
+            <div class="col-md-4 mb-5">
+                <div class="card border-4 border-danger">
+                    <img src="https://img.magnific.com/vector-premium/dibujo-grafico-que-dice-grafico-el_986058-5061.jpg" class="card-img-top" alt="grafica-contable" height="250px"/>
                     <div class="card-body">
                         <h3>Economía</h3>
                         <p class="card-text">Completo.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="card">
-                    <img src="https://media.istockphoto.com/id/1485075537/es/vector/ilustraci%C3%B3n-vectorial-aislada-de-computadora-port%C3%A1til-simple.jpg?s=612x612&w=0&k=20&c=Yna9gTzfyyqoLHLbkModfisYVXEY_EwatukTLGaa7XM=" class="card-img-top" alt="computadora-portatil" height="410px"/>
+            <div class="col-md-4 mb-5">
+                <div class="card border-4 border-danger">
+                    <img src="https://i.pinimg.com/originals/90/38/b8/9038b8432c034d64716b01246a37300f.jpg?nii=t" class="card-img-top" alt="computadora-portatil" height="250px"/>
                     <div class="card-body">
                         <h3>Programación Web</h3>
                         <p class="card-text">En curso.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="card">
-                    <img src="https://png.pngtree.com/png-clipart/20240909/original/pngtree-accounting-accountancy-service-banking-calculation-png-image_15979111.png" class="card-img-top" alt="elemtos-contables" height="410px"/>
+            <div class="col-md-4 mb-5">
+                <div class="card border-4 border-danger">
+                    <img src="https://media.istockphoto.com/id/1871704266/es/vector/declaraciones-financieras.jpg?s=612x612&w=0&k=20&c=Q_YKVeKJLMeVlPkm6-RixkFmGVVdt-YNcSAqCoDDObM=" class="card-img-top" alt="elemtos-contables" height="250px"/>
                     <div class="card-body">
                         <h3>Auxiliar Contable</h3>
                         <p class="card-text">En curso.</p>
@@ -105,14 +110,25 @@
       </div>
     </main>
     <footer>
-      <h3>Datos de Contacto</h3>
-      <nav>
-        <ul>
-          <li><a href="#whatsapp">WhatsApp</a></li>
-          <li><a href="#instagram">Instagram</a></li>
-          <li><a href="#email">Email</a></li>
-        </ul>
-      </nav>
+      <h3 id="formulario" class="text-center">¿Alguna pregunta?</h3>
+      <div class="container-fluid p-5">
+        <div class="row">
+          <div class="col-12">
+            <h5>Nombre</h5>
+            <input type="text" class="form-control mb-3 border-0"/>
+            <h5>Email</h5>
+            <input type="email" class="form-control mb-3 border-0"/>
+            <h5>Mensaje</h5>
+            <input type="text" class="form-control mb-3 border-0"/>
+            <button class="btn btn-danger">Enviar</button>
+          </div>
+          <div class="col-4">
+            <a href="https://wa.me/qr/SOBXF6TENKNJG1"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://www.instagram.com/ncxl.rn?utm_source=qr&igsh=MWRtMDRpcXFocXVucA=="><i class="bi bi-instagram"></i></a>
+            <a href="sms:+543815511163"><i class="bi bi-envelope"></i></a>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <script
