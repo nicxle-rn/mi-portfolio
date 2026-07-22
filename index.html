@@ -38,7 +38,7 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto fs-5">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#sobre-mi"
                   >Sobre mí</a
@@ -56,12 +56,15 @@
       </nav>
     </header>
     <main>
-      <div id="banner" class="container-fluid text-center mb-5 p-5">
+      <section id="banner">
+      <div class="container-fluid text-center mb-5 p-5">
         <h1 id="titulo-principal" class="text-dark">Lourdes Guzmán</h1>
-        <p class="fs-5">Programadora Web</p>
+        <p class="fs-5">Estudiante de Programación Web</p>
       </div>
+      </section>
 
-      <div class="container">
+      <section>
+      <div class="container my-5">
         <div class="row">
           <div class="col">
             <h2 id="sobre-mi" class="mt-5">Conoce a <br> Lourdes</h2>
@@ -70,14 +73,20 @@
             <div class="card ms-auto" style="width: 20rem;">
                 <img src="https://i.pinimg.com/vwebp/736x/43/f6/7e/43f67e2b6430b08b31d31b977b087b1d.webp" class="card-img-top" alt="frutilla-cortada" height="400px"/>
                 <div class="card-body">
-                    <p class="card-text">Estoy en proceso de formarme profesionalmente en áreas de economía, manejos de pc, documentos contables, etc. Tengo capacidad y deseo de aprender constantemente; cuando se da la oportunidad, no la desaprovecho.</p>
+                    <p class="card-text">Estoy en proceso de formarme profesionalmente en áreas de economía, manejos de pc, documentos contables, etc. Tengo capacidad y deseo de aprender constantemente; cuando se da la oportunidad, no la desaprovecho!</p>
                 </div>
             </div>
             </div>
       </div>
+      </div>
+      <div class="container-fluid text-center p-5 fs-3">
+        <p class="parrafo-pensamiento">Estudiar, reclamar tus derechos y dar tu opinón es el mayor acto de "rebeldia" hacia un estado que te quiere ignorante.</p>
+      </div>
+      </section>
 
-      <h2 class="text-center mt-4" id="cursos">Cursos</h2>
-      <div class="container text-center">
+      <section>
+      <h2 class="text-center mt-5" id="cursos">Cursos</h2>
+      <div class="container text-center p-4">
         <div class="row">
             <div class="col-md-4 mb-5">
                 <div class="card border-4 border-danger">
@@ -108,24 +117,39 @@
             </div>
         </div>
       </div>
+      </section>
     </main>
+
     <footer>
-      <h3 id="formulario" class="text-center">¿Alguna pregunta?</h3>
-      <div class="container-fluid p-5">
+      <h3 id="formulario" class="text-center p-3">¿Alguna pregunta?</h3>
+      <div class="container-fluid" id="content-form">
         <div class="row">
-          <div class="col-12">
-            <h5>Nombre</h5>
-            <input type="text" class="form-control mb-3 border-0"/>
-            <h5>Email</h5>
-            <input type="email" class="form-control mb-3 border-0"/>
-            <h5>Mensaje</h5>
-            <input type="text" class="form-control mb-3 border-0"/>
-            <button class="btn btn-danger">Enviar</button>
+          <div class="col-md-6 text-center">
+            <img src="https://png.pngtree.com/png-vector/20241217/ourmid/pngtree-3d-confused-person-with-question-mark-problem-solving-concept-clipart-png-image_14792105.png" alt="persona-confundida" height="250px"width="250px"/>
           </div>
-          <div class="col-4">
-            <a href="https://wa.me/qr/SOBXF6TENKNJG1"><i class="bi bi-whatsapp"></i></a>
-            <a href="https://www.instagram.com/ncxl.rn?utm_source=qr&igsh=MWRtMDRpcXFocXVucA=="><i class="bi bi-instagram"></i></a>
-            <a href="sms:+543815511163"><i class="bi bi-envelope"></i></a>
+          <div class="col-md-6">
+            <form action="https://formsubmit.co/loubatt2828@gmail.com" method="POST">
+              <input type="hidden" name="_next" value="index.html">
+              <input type="hidden" name="_captcha" value="false">
+            <fieldset>
+            <h5>Nombre</h5>
+            <input type="text" class="form-control mb-3 border-0" name="name" required/>
+            <h5>Email</h5>
+            <input type="email" class="form-control mb-3 border-0" name="email" required/>
+            <h5>Mensaje</h5>
+            <textarea class="form-control mb-3 border-0" name="message" required rows="3"> </textarea>
+            <input type="submit" class="btn btn-danger" value="Enviar mensaje"/>
+            </fieldset>
+            </form>
+          </div>
+          <div class="col-4 text-center mt-5">
+            <a href="https://wa.me/qr/SOBXF6TENKNJG1" class="text-decoration-none text-dark fs-4"><i class="bi bi-whatsapp"></i></a>
+          </div>
+          <div class="col-4 text-center mt-5">
+            <a href="https://www.instagram.com/ncxl.rn?utm_source=qr&igsh=MWRtMDRpcXFocXVucA==" class="text-decoration-none text-dark fs-4"><i class="bi bi-instagram"></i></a>
+          </div>
+          <div class="col-4 text-center mt-5">
+            <a href="sms:+543815511163" class="text-decoration-none text-dark fs-4"><i class="bi bi-envelope"></i></a>
           </div>
         </div>
       </div>

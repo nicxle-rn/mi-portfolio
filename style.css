@@ -10,13 +10,35 @@ main {
 
 header, footer {
     background-color:brown;
+    padding: 1rem;
 }
 
-#banner {
+#banner{
     background-color:#f29479;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
-#titulo-principal, #sobre-mi{
+#titulo-principal, #sobre-mi, #cursos {
     font-size: 4rem;
+    font-family: "Kameron", serif;
+}
+
+.parrafo-pensamiento {
+    background-color: #9e2a2b;
+    color: white;
+    font-family: "Abril Fatface", serif;
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+#formulario {
+    font-family: "Kameron", serif;
+    font-size: 2rem
+}
+
+#content-form {
     font-family: "Kameron", serif;
 }
