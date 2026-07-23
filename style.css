@@ -16,8 +16,8 @@ footer {
 
 #banner {
   background-color: #f29479;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 17rem;
+  padding-bottom: 12rem;
 }
 
 #titulo-principal,
@@ -25,6 +25,10 @@ footer {
 #cursos {
   font-size: 4rem;
   font-family: "Kameron", serif;
+}
+
+#info-me, #educacion, #contacto {
+  padding-top: 3rem;
 }
 
 .pensamiento {
@@ -61,8 +65,8 @@ footer {
   }
 
   #banner {
-    padding-top: 13rem;
-    padding-bottom: 13rem;
+    padding-top: 25rem;
+    padding-bottom: 15rem;
   }
 
   #info-me {
@@ -180,7 +184,7 @@ footer {
   }
 
   #banner {
-    padding-top: 13.7rem;
+    padding-top: 18rem;
     padding-bottom: 13.7rem;
   }
 
@@ -223,7 +227,7 @@ footer {
   }
 
   #banner {
-    padding-top: 16.5rem;
+    padding-top: 21.5rem;
     padding-bottom: 16.5rem;
   }
 
