@@ -37,6 +37,10 @@ footer {
   border-radius: 5px;
 }
 
+#educacion, .info-adi {
+  background-color: #f29479;
+}
+
 #formulario {
   font-family: "Kameron", serif;
   font-size: 2rem;
@@ -44,6 +48,10 @@ footer {
 
 #content-form {
   font-family: "Kameron", serif;
+}
+
+#icon:active, #links-nav:active {
+  color: white;
 }
 
 @media (min-width: 768px) {
@@ -166,4 +174,83 @@ footer {
   }
 }
 
+@media (min-width:1280px) {
+  #links-nav {
+    font-size: 1.2rem;
+  }
 
+  #banner {
+    padding-top: 13.7rem;
+    padding-bottom: 13.7rem;
+  }
+
+  #titulo-principal, #sobre-mi {
+    font-size: 5rem;
+  }
+
+  #descripcion-me {
+    padding: 1rem;
+  }
+
+  .pensamiento {
+    margin-top: 13rem;
+  }
+
+  #card-cursos {
+    width: 350px;
+  }
+
+  #info, h5 {
+    font-size: 1.3rem;
+  }
+
+  #formulario {
+    font-size: 2.5rem;
+  }
+
+  #img-duda {
+    margin-top: 2rem;
+  }
+
+  #icon {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width:1920px) {
+  #links-nav {
+    font-size: 1.3rem;
+  }
+
+  #banner {
+    padding-top: 16.5rem;
+    padding-bottom: 16.5rem;
+  }
+
+  #titulo-principal, #sobre-mi {
+    font-size: 6rem;
+  }
+
+  #descripcion-me {
+    padding: 1.5rem;
+  }
+
+  .pensamiento {
+    padding: 4rem;
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+  }
+
+  #card-cursos {
+    width: 400px;
+    height: 420px;
+  }
+
+  #formulario {
+    font-size: 2.6rem;
+  }
+
+  #img-duda {
+    margin-top: 2.5rem;
+  }
+}
