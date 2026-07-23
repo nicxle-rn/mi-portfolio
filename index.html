@@ -23,6 +23,7 @@
               alt="Frutilla"
               width="50"
               height="50"
+              id="logo-frutilla"
             />
           </a>
           <button
@@ -40,15 +41,15 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto fs-5">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#sobre-mi"
+                <a id="links-nav" class="nav-link active" aria-current="page" href="#sobre-mi"
                   >Sobre mí</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#cursos">Educación</a>
+                <a id="links-nav" class="nav-link" href="#cursos">Educación</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#formulario">Contacto</a>
+                <a id="links-nav" class="nav-link" href="#formulario">Contacto</a>
               </li>
             </ul>
           </div>
@@ -63,7 +64,7 @@
       </div>
       </section>
 
-      <section>
+      <section id="info-me">
       <div class="container my-5">
         <div class="row">
           <div class="col">
@@ -73,50 +74,62 @@
             <div class="card ms-auto" style="width: 20rem;">
                 <img src="https://i.pinimg.com/vwebp/736x/43/f6/7e/43f67e2b6430b08b31d31b977b087b1d.webp" class="card-img-top" alt="frutilla-cortada" height="400px"/>
                 <div class="card-body">
-                    <p class="card-text">Estoy en proceso de formarme profesionalmente en áreas de economía, manejos de pc, documentos contables, etc. Tengo capacidad y deseo de aprender constantemente; cuando se da la oportunidad, no la desaprovecho!</p>
+                    <p class="card-text" id="descripcion-me">Estoy en proceso de formarme profesionalmente en áreas como economía, manejos de pc, documentos contables, etc. Tengo capacidad y deseo de aprender constantemente; cuando se da la oportunidad, no la desaprovecho!</p>
                 </div>
             </div>
             </div>
       </div>
       </div>
       <div class="container-fluid text-center p-5 fs-3">
-        <p class="parrafo-pensamiento">Estudiar, reclamar tus derechos y dar tu opinón es el mayor acto de "rebeldia" hacia un estado que te quiere ignorante.</p>
+        <p class="pensamiento">Estudiar, reclamar tus derechos y dar tu opinón es el mayor acto de "rebeldia" hacia un estado que te quiere ignorante.</p>
       </div>
       </section>
 
-      <section>
+      <section id="educacion">
       <h2 class="text-center mt-5" id="cursos">Cursos</h2>
-      <div class="container text-center p-4">
+      <div class="container text-center p-4" id="content-cursos">
         <div class="row">
-            <div class="col-md-4 mb-5">
-                <div class="card border-4 border-danger">
+            <div class="col-lg-4 mb-5">
+                <div class="card border-4 border-danger" id="card-cursos">
                     <img src="https://img.magnific.com/vector-premium/dibujo-grafico-que-dice-grafico-el_986058-5061.jpg" class="card-img-top" alt="grafica-contable" height="250px"/>
                     <div class="card-body">
-                        <h3>Economía</h3>
-                        <p class="card-text">Completo.</p>
+                        <h3>Ciencias Económicas</h3>
+                        <p class="card-text"> <strong>Completo</strong> <br> Realizado en la facultad de Ciencias Económicas</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-5">
-                <div class="card border-4 border-danger">
+            <div class="col-lg-4 mb-5">
+                <div class="card border-4 border-danger" id="card-cursos">
                     <img src="https://i.pinimg.com/originals/90/38/b8/9038b8432c034d64716b01246a37300f.jpg?nii=t" class="card-img-top" alt="computadora-portatil" height="250px"/>
                     <div class="card-body">
                         <h3>Programación Web</h3>
-                        <p class="card-text">En curso.</p>
+                        <p class="card-text"><strong>En curso</strong> <br> Cursando presencial en el Instituto Noa</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-5">
-                <div class="card border-4 border-danger">
+            <div class="col-lg-4 mb-5">
+                <div class="card border-4 border-danger" id="card-cursos">
                     <img src="https://media.istockphoto.com/id/1871704266/es/vector/declaraciones-financieras.jpg?s=612x612&w=0&k=20&c=Q_YKVeKJLMeVlPkm6-RixkFmGVVdt-YNcSAqCoDDObM=" class="card-img-top" alt="elemtos-contables" height="250px"/>
                     <div class="card-body">
                         <h3>Auxiliar Contable</h3>
-                        <p class="card-text">En curso.</p>
+                        <p class="card-text"><strong>En curso</strong> <br> Cursando virtual en el Instituto Noa</p>
                     </div>
                 </div>
             </div>
         </div>
       </div>
+      </section>
+
+      <section class="info-adi">
+      <h2>Información Adicional</h2>
+      <details id="info">
+        <summary>Secundario</summary>
+        <p class="p-2">Secundario completo realizado en la Escuela de Comercio Nro 1 (división economía)</p>
+      </details>
+      <details id="info" class="pb-5">
+        <summary>Otros Cursos</summary>
+        <p class="p-2">Curso de Nivelación en matemáticas realizado en la facultad de Ciencias Exactas y Tecnología</p>
+      </details>
       </section>
     </main>
 
@@ -125,9 +138,9 @@
       <div class="container-fluid" id="content-form">
         <div class="row">
           <div class="col-md-6 text-center">
-            <img src="https://png.pngtree.com/png-vector/20241217/ourmid/pngtree-3d-confused-person-with-question-mark-problem-solving-concept-clipart-png-image_14792105.png" alt="persona-confundida" height="250px"width="250px"/>
+            <img src="https://png.pngtree.com/png-vector/20241217/ourmid/pngtree-3d-confused-person-with-question-mark-problem-solving-concept-clipart-png-image_14792105.png" alt="persona-confundida" height="250px"width="250px" id="img-duda"/>
           </div>
-          <div class="col-md-6">
+          <div id="input" class="col-md-6">
             <form action="https://formsubmit.co/loubatt2828@gmail.com" method="POST">
               <input type="hidden" name="_next" value="index.html">
               <input type="hidden" name="_captcha" value="false">
@@ -143,13 +156,13 @@
             </form>
           </div>
           <div class="col-4 text-center mt-5">
-            <a href="https://wa.me/qr/SOBXF6TENKNJG1" class="text-decoration-none text-dark fs-4"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://wa.me/qr/SOBXF6TENKNJG1" class="text-decoration-none text-dark fs-4"><i class="bi bi-whatsapp" id="icon"></i></a>
           </div>
           <div class="col-4 text-center mt-5">
-            <a href="https://www.instagram.com/ncxl.rn?utm_source=qr&igsh=MWRtMDRpcXFocXVucA==" class="text-decoration-none text-dark fs-4"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.instagram.com/ncxl.rn?utm_source=qr&igsh=MWRtMDRpcXFocXVucA==" class="text-decoration-none text-dark fs-4"><i class="bi bi-instagram" id="icon"></i></a>
           </div>
           <div class="col-4 text-center mt-5">
-            <a href="sms:+543815511163" class="text-decoration-none text-dark fs-4"><i class="bi bi-envelope"></i></a>
+            <a href="sms:+543815511163" class="text-decoration-none text-dark fs-4"><i class="bi bi-envelope" id="icon"></i></a>
           </div>
         </div>
       </div>
