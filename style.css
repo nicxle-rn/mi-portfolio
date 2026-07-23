@@ -112,3 +112,58 @@ footer {
     color: white;
   }
 }
+
+@media (min-width:1024px) {
+    header {
+        padding:0;
+    }
+
+    #links-nav {
+        font-size: 1rem;
+    }
+
+    #logo-frutilla {
+    width: 60px;
+    height: 60px;
+  }
+
+  #banner {
+    padding-top: 10.5rem;
+    padding-bottom: 10.5rem;
+  }
+
+  #sobre-mi {
+    margin-left: 4rem;
+  }
+
+  #descripcion-me {
+    font-size: 1.1rem;
+  }
+
+  .pensamiento {
+    padding: 3.5rem;
+    margin-top: 10rem;
+    margin-bottom: 7rem;
+  }
+
+  #card-cursos {
+    width: 300px;
+    margin-right: 25rem;
+    margin-left: 0;
+  }
+
+  #info {
+    font-size: 1rem;
+  }
+
+  #input {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  #icon-color {
+    background-color: darkred;
+  }
+}
+
+
